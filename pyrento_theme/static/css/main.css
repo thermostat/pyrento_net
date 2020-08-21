@@ -1,0 +1,283 @@
+
+
+/* Based on a template by Ben Meadowcroft, see http://www.benmeadowcroft.com/webdev/  for more info */
+body
+{
+	color : white;
+	background-color : rgb(0,0,0);
+	background-attachment : fixed;
+	background-position : bottom left;
+	background-repeat : no-repeat;
+	font-family:sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	/*margin:0px;*/
+	padding: 0.1em;
+}
+
+img
+{
+	border : 0;
+}
+
+
+/*
+ * This ensures that text in paragraphs doesn't
+ * stretch right across the screen. This only works
+ * in more advanced browsers.
+ */
+
+ul.menu
+{
+	list-style:none;
+	margin:0px;
+}
+
+ul.menu li
+{
+	display:inline;
+}
+
+.menu
+{
+	text-align : center;
+	background-color : rgb(0,0,50);
+	border : thin solid rgb(0,0,0);
+	/*-moz-border-radius: 8px;*/
+	font-weight : bold;
+}
+
+
+.menu a:hover
+{
+	color : rgb(255,64,64);
+	background-color : rgb(230,230,250);
+}
+
+
+.menu strong
+{
+	font-size : large;
+}
+
+.other
+{
+	text-align : center;
+	border : thin solid rgb(0,0,0);
+	background-color : inherit;
+	color : rgb(0,0,0);
+	font-weight : bold;
+}
+
+.document p
+ {
+	max-width:45em;
+	margin-bottom:20px;
+}
+
+a
+{
+	color : rgb(153,204,255);
+	background-color : inherit;
+	text-decoration : none;
+}
+
+h1, div.document h1, div.document h2 { 
+  color: rgb(153,204,255);
+  background-color : rgb(0,0,0);
+  /*border: thin solid black;*/
+  border-bottom-style : solid;
+  border-bottom-color : rgb(153,204,255);
+  border-bottom-width : 2px;
+  padding : 0.1 em;
+  /*margin-top : -5px;*/
+  /*-moz-border-radius: 8px;*/
+}
+
+div.document h1 a,  div.document h2 a{ 
+  color : rgb(153,204,255);
+}
+.document
+{
+	color : rgb(255,255,255);
+	background-color : rgb(0,0,0);
+	border : thin solid;
+	padding-top : 0;
+	margin-top : 0px;
+}
+
+.footer
+{
+
+}
+
+.footer a:link
+{
+	color: rgb(0,0,0);
+	background-color:transparent;
+}
+
+div.highlight, pre.literal-block, pre.doctest-block {
+  border: thin black solid;
+  padding: 5px;
+  display: block;
+  color: #000000;
+  background-color: #d0d0d0;
+  margin-left: 20px;
+}
+
+
+/* Based on a template by Ben Meadowcroft, see http://www.benmeadowcroft.com/webdev/  for more info */
+.title
+{
+	position:absolute;
+	top:0px;
+	left:0.5em;
+	height:1em;
+	margin-left : auto;
+	margin-right: auto;
+	padding: 5px;
+	z-index : 0;
+}
+
+.sidebar
+{
+	color : white;
+	position : absolute;
+	top : 1em;
+	left : 1%;
+	width : 10em;
+	z-index : 1;
+	padding : 5pt;
+	border-style : solid;
+	border-width : medium;
+	/*-moz-border-radius: 8px;*/
+}
+
+
+.sidebar a
+{ 
+	color : white;
+	text-decoration : none;
+
+}
+
+.sidebar a:visited
+{ 
+	color : rgb(255,255,255);
+}
+
+.sidebar a:hover
+{
+	color : red;
+}
+
+
+.quote 
+{
+	font-size : x-small;
+	cursor: pointer;
+}
+
+
+.menu
+{
+	padding : 0.5em;
+	margin-bottom : 0.5em;
+}
+
+.menu a
+{
+	display : block;
+}
+
+.other
+{
+	padding :0.5em;
+	margin-top : 0.5em;
+}
+
+.document
+{
+	margin-top : 1em;
+	margin-left : 12em;
+	padding : 1em;
+	margin-right : 6em;
+}
+
+
+.field
+{
+	text-align : left;
+
+}
+
+
+code, tt {
+  color: #b0b0dd;
+}
+td.linenos { background-color: #f0f0f0; padding-right: 10px; }
+span.lineno { background-color: #f0f0f0; padding: 0 5px 0 5px; }
+pre { line-height: 125%; }
+body .c { color: #408080; font-style: italic } /* Comment */
+body .err { border: 1px solid #FF0000 } /* Error */
+body .k { color: #008000; font-weight: bold } /* Keyword */
+body .o { color: #666666 } /* Operator */
+body .cm { color: #408080; font-style: italic } /* Comment.Multiline */
+body .cp { color: #BC7A00 } /* Comment.Preproc */
+body .c1 { color: #408080; font-style: italic } /* Comment.Single */
+body .cs { color: #408080; font-style: italic } /* Comment.Special */
+body .gd { color: #A00000 } /* Generic.Deleted */
+body .ge { font-style: italic } /* Generic.Emph */
+body .gr { color: #FF0000 } /* Generic.Error */
+body .gh { color: #000080; font-weight: bold } /* Generic.Heading */
+body .gi { color: #00A000 } /* Generic.Inserted */
+body .go { color: #808080 } /* Generic.Output */
+body .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
+body .gs { font-weight: bold } /* Generic.Strong */
+body .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
+body .gt { color: #0040D0 } /* Generic.Traceback */
+body .kc { color: #008000; font-weight: bold } /* Keyword.Constant */
+body .kd { color: #008000; font-weight: bold } /* Keyword.Declaration */
+body .kp { color: #008000 } /* Keyword.Pseudo */
+body .kr { color: #008000; font-weight: bold } /* Keyword.Reserved */
+body .kt { color: #B00040 } /* Keyword.Type */
+body .m { color: #666666 } /* Literal.Number */
+body .s { color: #BA2121 } /* Literal.String */
+body .na { color: #7D9029 } /* Name.Attribute */
+body .nb { color: #008000 } /* Name.Builtin */
+body .nc { color: #0000FF; font-weight: bold } /* Name.Class */
+body .no { color: #880000 } /* Name.Constant */
+body .nd { color: #AA22FF } /* Name.Decorator */
+body .ni { color: #999999; font-weight: bold } /* Name.Entity */
+body .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+body .nf { color: #0000FF } /* Name.Function */
+body .nl { color: #A0A000 } /* Name.Label */
+body .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
+body .nt { color: #008000; font-weight: bold } /* Name.Tag */
+body .nv { color: #19177C } /* Name.Variable */
+body .ow { color: #AA22FF; font-weight: bold } /* Operator.Word */
+body .w { color: #bbbbbb } /* Text.Whitespace */
+body .mf { color: #666666 } /* Literal.Number.Float */
+body .mh { color: #666666 } /* Literal.Number.Hex */
+body .mi { color: #666666 } /* Literal.Number.Integer */
+body .mo { color: #666666 } /* Literal.Number.Oct */
+body .sb { color: #BA2121 } /* Literal.String.Backtick */
+body .sc { color: #BA2121 } /* Literal.String.Char */
+body .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
+body .s2 { color: #BA2121 } /* Literal.String.Double */
+body .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+body .sh { color: #BA2121 } /* Literal.String.Heredoc */
+body .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+body .sx { color: #008000 } /* Literal.String.Other */
+body .sr { color: #BB6688 } /* Literal.String.Regex */
+body .s1 { color: #BA2121 } /* Literal.String.Single */
+body .ss { color: #19177C } /* Literal.String.Symbol */
+body .bp { color: #008000 } /* Name.Builtin.Pseudo */
+body .vc { color: #19177C } /* Name.Variable.Class */
+body .vg { color: #19177C } /* Name.Variable.Global */
+body .vi { color: #19177C } /* Name.Variable.Instance */
+body .il { color: #666666 } /* Literal.Number.Integer.Long */
+
