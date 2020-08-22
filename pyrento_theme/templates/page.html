@@ -11,9 +11,13 @@
 
     {{ page.content }}
 
-    {% if page.modified %}
-        <p>
-        Last updated: {{ page.locale_modified }}
-        </p>
-    {% endif %}
 {% endblock %}
+
+{% block footer %}
+        <p>
+        {% if page.date is defined %}
+        Updated: {{ page.date|strftime("%Y-%m-%d") }}
+        {% endif %}
+        </p>
+{% endblock footer %}      
+        

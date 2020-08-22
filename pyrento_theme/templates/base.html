@@ -28,7 +28,11 @@
         <div class="document">
         {% block content %}
         {% endblock %}
+        <hr />
         <footer id="contentinfo" class="body">
+          {% block footer %}
+          Built for pyrento.net
+          {% endblock footer %}
         </footer><!-- /#contentinfo -->
 </body>
 </html>
