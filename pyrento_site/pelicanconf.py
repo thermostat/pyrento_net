@@ -21,8 +21,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 MENUITEMS = (
-    ("Dan's Acidemic Page", 'http://www.cs.virginia.edu/~dww4s/index_old.html'),
     ("NVidia", 'http://nvidia.com'),
+    ("UVa CS", 'http://www.cs.virginia.edu/'),
+    ("Twitter", "http://twitter.com/thermostat/"),
     )
 
 # Blogroll

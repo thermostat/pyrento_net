@@ -8,10 +8,10 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-SSH_HOST=localhost
+SSH_HOST=pyrento.net
 SSH_PORT=22
-SSH_USER=danw
-SSH_TARGET_DIR=/home/danw/test/www
+SSH_USER=thermo
+SSH_TARGET_DIR=/home2/thermo/public_html/v2
 
 
 DEBUG ?= 0
