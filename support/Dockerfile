@@ -11,7 +11,7 @@ FROM alpine
 LABEL author="Dan Williams"
 LABEL maintainer="dww@pyrento.net"
 
-RUN apk add python3-dev bash
+RUN apk add python3-dev py3-pip  bash
 RUN mkdir /support
 ADD requirements.txt /support
 RUN pip3 install -r /support/requirements.txt
