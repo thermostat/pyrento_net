@@ -1,6 +1,6 @@
 Title: Dan Williams
 save_as: index.html
-date: 08-22-2020
+date: 11-07-2022
 
 I currently work for [NVidia](http://www.nvidia.com). Previously I was a grad student at
 [University of Virginia](http://virginia.edu), where I earned my PhD in May 2012. Prior to
@@ -20,5 +20,5 @@ I am currently interested in:
 * Machine Learning
 * Hardware/Software Codesign
 * Virtual Machines
-
+* Software security
 

@@ -20,8 +20,8 @@
           {% endblock side_img %}
           <p><strong>Links</strong></p>
         <nav id="menu">
-        {% for title, link in MENUITEMS %}
-            <p><a href="{{ link }}">{{ title }}</a></p>
+        {% for title, link, relname in MENUITEMS %}
+            <p><a  {{ relname }} href="{{ link }}">{{ title }}</a></p>
         {% endfor %}
         </nav><!-- /#menu -->
         </div>

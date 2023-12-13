@@ -21,9 +21,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 MENUITEMS = (
-    ("NVidia", 'http://nvidia.com'),
-    ("UVa CS", 'http://www.cs.virginia.edu/'),
-    ("Twitter", "http://twitter.com/thermostat/"),
+    ("NVidia", 'http://nvidia.com', ''),
+    ("UVa CS", 'http://www.cs.virginia.edu/', ''),
+    ("Mastodon", "https://octodon.social/@thermostat", 'rel="me"'),
+    #("Twitter", "http://twitter.com/thermostat/", ''),
     )
 
 # Blogroll
