@@ -23,7 +23,7 @@ AUTHOR_FEED_RSS = None
 MENUITEMS = (
     ("NVidia", 'http://nvidia.com', ''),
     ("UVa CS", 'http://www.cs.virginia.edu/', ''),
-    ("Mastodon", "https://octodon.social/@thermostat", 'rel="me"'),
+    ("Mastodon", "https://hachyderm.io/@thermostat", 'rel="me"'),
     #("Twitter", "http://twitter.com/thermostat/", ''),
     )
 
