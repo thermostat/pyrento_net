@@ -1,0 +1,1 @@
+Sitemap: https://thermostat.github.io/pyrento_net/sitemap.xml
