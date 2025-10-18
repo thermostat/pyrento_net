@@ -1,0 +1,53 @@
+/* Theme tweaks layered on top of Bootstrap Flatly. */
+
+:root {
+  --brand-accent: #2c3e50; /* Flatly navbar background */
+  --brand-accent-hover: #1f2d3a;
+}
+
+a {
+  color: var(--brand-accent);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--brand-accent-hover);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--brand-accent);
+}
+
+/* Pull the code-fold toggle into the left margin with a subtle pointer */
+details.code-fold > summary {
+  list-style: none;
+  position: relative;
+  margin-left: -1.5rem;
+  padding-left: 1.5rem;
+  cursor: pointer;
+  color: transparent; /* keep text for accessibility but hide visually */
+  line-height: 1.4;
+}
+
+details.code-fold > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.code-fold > summary::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--brand-accent);
+  font-size: 0.85rem;
+}
+
+details.code-fold[open] > summary::before {
+  content: "▾";
+}

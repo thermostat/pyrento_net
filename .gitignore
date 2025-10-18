@@ -1,7 +1,0 @@
-
-AGENTS.md
-pyrento_site/output/*
-pyrento_site/__pycache__/# Repository Guidelines
-quarto_site/pyrento/_site/*
-quarto_site/pyrento/.quarto/*
-*~

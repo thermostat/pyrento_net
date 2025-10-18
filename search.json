@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "momento_mori.html",
+    "href": "momento_mori.html",
+    "title": "Momento Mori",
+    "section": "",
+    "text": "He who fights with monsters might take care lest he thereby become a monster. And if you gaze for long into an abyss, the abyss gazes also into you."
+  },
+  {
+    "objectID": "dw_music.html",
+    "href": "dw_music.html",
+    "title": "Music",
+    "section": "",
+    "text": "This is a small clip-based melodic tune, maybe suitable for a game situation. Voice with Vital patches quantized to give an bit of an 8-bit feel.\n\n\nCode\n\nfrom IPython.display import HTML\nfrom pathlib import Path\n\ndef audio_player(src, label=\"Play audio\"):\n    src = Path(src).as_posix()  # keep paths web-friendly\n    return HTML(f\"\"\"\n      &lt;figure class=\"audio-player\"&gt;\n        &lt;figcaption&gt;{label}&lt;/figcaption&gt;\n        &lt;audio controls preload=\"none\"&gt;\n          &lt;source src=\"{src}\" type=\"audio/mpeg\"&gt;\n          Your browser does not support the audio element.\n        &lt;/audio&gt;\n      &lt;/figure&gt;\n      \"\"\")\n\naudio_player('assets/8bit_walk.mp3')\n\n\n\n      \n        Play audio\n        \n          \n          Your browser does not support the audio element.\n        \n      \n      \n\n\n\n\nCode\nIPython.display.HTML('&lt;p xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dct=\"http://purl.org/dc/terms/\"&gt;&lt;span property=\"dct:title\"&gt;8-bit walk&lt;/span&gt; by &lt;span property=\"cc:attributionName\"&gt;Daniel Williams&lt;/span&gt; is licensed under &lt;a href=\"https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\"&gt;CC BY-NC 4.0&lt;img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\" alt=\"\"&gt;&lt;img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1\" alt=\"\"&gt;&lt;img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1\" alt=\"\"&gt;&lt;/a&gt;&lt;/p&gt;')\n\n\n8-bit walk by Daniel Williams is licensed under CC BY-NC 4.0"
+  },
+  {
+    "objectID": "dw_music.html#bit-walk",
+    "href": "dw_music.html#bit-walk",
+    "title": "Music",
+    "section": "",
+    "text": "This is a small clip-based melodic tune, maybe suitable for a game situation. Voice with Vital patches quantized to give an bit of an 8-bit feel.\n\n\nCode\n\nfrom IPython.display import HTML\nfrom pathlib import Path\n\ndef audio_player(src, label=\"Play audio\"):\n    src = Path(src).as_posix()  # keep paths web-friendly\n    return HTML(f\"\"\"\n      &lt;figure class=\"audio-player\"&gt;\n        &lt;figcaption&gt;{label}&lt;/figcaption&gt;\n        &lt;audio controls preload=\"none\"&gt;\n          &lt;source src=\"{src}\" type=\"audio/mpeg\"&gt;\n          Your browser does not support the audio element.\n        &lt;/audio&gt;\n      &lt;/figure&gt;\n      \"\"\")\n\naudio_player('assets/8bit_walk.mp3')\n\n\n\n      \n        Play audio\n        \n          \n          Your browser does not support the audio element.\n        \n      \n      \n\n\n\n\nCode\nIPython.display.HTML('&lt;p xmlns:cc=\"http://creativecommons.org/ns#\" xmlns:dct=\"http://purl.org/dc/terms/\"&gt;&lt;span property=\"dct:title\"&gt;8-bit walk&lt;/span&gt; by &lt;span property=\"cc:attributionName\"&gt;Daniel Williams&lt;/span&gt; is licensed under &lt;a href=\"https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1\" target=\"_blank\" rel=\"license noopener noreferrer\" style=\"display:inline-block;\"&gt;CC BY-NC 4.0&lt;img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1\" alt=\"\"&gt;&lt;img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1\" alt=\"\"&gt;&lt;img style=\"height:22px!important;margin-left:3px;vertical-align:text-bottom;\" src=\"https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1\" alt=\"\"&gt;&lt;/a&gt;&lt;/p&gt;')\n\n\n8-bit walk by Daniel Williams is licensed under CC BY-NC 4.0"
+  },
+  {
+    "objectID": "dw_music.html#ralndqm",
+    "href": "dw_music.html#ralndqm",
+    "title": "Music",
+    "section": "Ralndqm",
+    "text": "Ralndqm\nThis is a love letter to the Rqndohm sequence preset on the Arturia Minifreak. It takes the preset provided sequence directly and adds some support from the Keysed and Type Pad presets."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dan Williams",
+    "section": "",
+    "text": "I work as a software engineer for NVidia. Previously I earned my PhD at University of Virginia, in May 2012."
+  },
+  {
+    "objectID": "index.html#life",
+    "href": "index.html#life",
+    "title": "Dan Williams",
+    "section": "Life",
+    "text": "Life\nI live in Birmingham, AL, where my wife Rachel works as a pediatrician, with our two cats and two kids."
+  },
+  {
+    "objectID": "index.html#technical-interests",
+    "href": "index.html#technical-interests",
+    "title": "Dan Williams",
+    "section": "Technical interests",
+    "text": "Technical interests\nI am currently interested in:\n\nSystems automation\nAPI creation\nMachine Learning\nHardware/Software Codesign\nVirtual Machines\nSoftware security"
+  },
+  {
+    "objectID": "index.html#other-interests",
+    "href": "index.html#other-interests",
+    "title": "Dan Williams",
+    "section": "Other interests",
+    "text": "Other interests\n\nMusic\nResource management"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "“Pyrento” is an anagram of entropy, with the “py” moved to the front which nicely emphasized my appreciation of python when site was created. The internet archive has the first listing in 2014, using a reStructuredText document as its source. It has gone through pelican and is now generated as part of a quarto workflow."
+  },
+  {
+    "objectID": "about.html#history-of-pyrento-dot-net",
+    "href": "about.html#history-of-pyrento-dot-net",
+    "title": "About",
+    "section": "",
+    "text": "“Pyrento” is an anagram of entropy, with the “py” moved to the front which nicely emphasized my appreciation of python when site was created. The internet archive has the first listing in 2014, using a reStructuredText document as its source. It has gone through pelican and is now generated as part of a quarto workflow."
+  },
+  {
+    "objectID": "ai.html",
+    "href": "ai.html",
+    "title": "AI",
+    "section": "",
+    "text": "Notes on AI\nDisclaimer: I am a software engineer at Nvidia."
+  }
+]
