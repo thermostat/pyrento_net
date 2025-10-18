@@ -1,0 +1,12 @@
+---
+title: "About"
+image: dww_new.jpg
+---
+
+## History of Pyrento dot Net
+
+"Pyrento" is an anagram of entropy, with the "py" moved to the front
+which nicely emphasized my appreciation of python when site was
+created.  The internet archive has the first listing in 2014, using a
+reStructuredText document as its source. It has gone through pelican
+and is now generated as part of a quarto workflow.

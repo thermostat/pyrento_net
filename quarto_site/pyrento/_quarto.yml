@@ -1,0 +1,45 @@
+project:
+  type: website
+
+website:
+  title: "pyrento"
+  search: false
+  navbar:
+    left:
+      - href: index.qmd
+        text: "<span class='bi bi-house' aria-hidden='true'></span><span class='visually-hidden'>Home</span>"
+      - href: about.qmd
+        text: "<span class='bi bi-emoji-grimace' aria-hidden='true'></span><span class='visually-hidden'>About</span>"
+      - href: ai.qmd
+        text: "<span class='bi bi-robot' aria-hidden='true'></span><span class='visually-hidden'>About</span>"
+      - href: momento_mori.qmd
+        text: "<span class='bi bi-balloon' aria-hidden='true'></span><span class='visually-hidden'>x</span>"
+      - href: dw_music.ipynb
+        text: "<span class='bi bi-music-note-beamed' aria-hidden='true'></span><span class='visually-hidden'>x</span>"
+  sidebar:
+    logo: dww_new.png
+    contents:
+      - section: "Links"
+        contents:
+        - text: "UVa"
+          href: https://www.virginia.edu
+          icon: bank
+        - text: "Nvidia"
+          icon: nvidia
+          href: http://www.nvidia.com
+        - text: Mastodon
+          href: https://hachyderm.io/@thermostat
+          icon: mastodon
+        - text: Github
+          href: https://github.com/thermostat
+          icon: github
+
+format:
+  html:
+    theme:
+      - flatly
+    css: styles.css
+    toc: false
+
+
+

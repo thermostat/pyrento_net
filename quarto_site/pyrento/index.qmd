@@ -1,0 +1,29 @@
+---
+title: "Dan Williams"
+---
+
+I work as a software engineer for
+[NVidia](http://www.nvidia.com). Previously I earned my PhD at
+[University of Virginia](http://virginia.edu), in May 2012.
+
+## Life
+
+I live in Birmingham, AL, where my wife Rachel works as a
+pediatrician, with our two cats and two kids.
+
+## Technical interests
+
+I am currently interested in:
+
+* Systems automation
+* API creation
+* Machine Learning
+* Hardware/Software Codesign
+* Virtual Machines
+* Software security
+
+
+## Other interests
+
+* Music
+* Resource management
