@@ -4,4 +4,7 @@ title: "AI"
 
 # Notes on AI
 
-Disclaimer: I am a software engineer at Nvidia. 
+Disclaimer: I am a software engineer at Nvidia. Opinions are my own.
+
+Large language models dominate the discussion space for current
+AI Work.
